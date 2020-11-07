@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import {
     Collapse,
     Navbar,
@@ -16,16 +15,12 @@ import {
   } from 'reactstrap';
 
 
-function navbar()
+function MyNavbar()
 {
-    return( 
+    return(
     <div> 
-        <h1>Testing</h1>
-    </div>
-    );
-}
-
-    /*  <Navbar>
+        <Navbar>
+            
             <NavbarBrand> 
             Home 
             </NavbarBrand>
@@ -39,7 +34,12 @@ function navbar()
             </NavbarBrand>
 
         </Navbar> 
+    </div>
+    );
+}
+
+    /*  
         
         TO DO: Find out how to link to the home page, find out why nothing is rendering on the app, find out the correct labels for the navbar
         */
-export default navbar
+export default MyNavbar
