@@ -1,0 +1,28 @@
+#tools-header {
+    text-align: center;
+}
+
+#main-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nodejs-logo {
+    margin-left: 120px;
+    margin-right: 35px;
+}
+
+#api-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heroku-logo {
+    margin-left: 20px;
+}
+
+#youtube-logo {
+    margin-left: 60px;
+}
