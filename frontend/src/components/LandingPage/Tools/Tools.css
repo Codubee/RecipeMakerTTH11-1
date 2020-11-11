@@ -9,8 +9,17 @@
 }
 
 #nodejs-logo {
-    margin-left: 120px;
-    margin-right: 35px;
+    margin-left: 4vw;
+    margin-right: 5vw;
+}
+
+#react-logo {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#heroku-logo {
+    margin-left: 1vw;
 }
 
 #api-logos {
@@ -19,10 +28,17 @@
     justify-content: center;
 }
 
-#heroku-logo {
-    margin-left: 20px;
-}
+@media (max-width: 576px) {
+    #main-logos {
+        max-width: 300px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
 
-#youtube-logo {
-    margin-left: 60px;
+    #api-logos {
+        flex-direction: row;
+        max-width: 200px;
+        margin-left: 33vw;
+        margin-right: 33vw;
+    }
 }
