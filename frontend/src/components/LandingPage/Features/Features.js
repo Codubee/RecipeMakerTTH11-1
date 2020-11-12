@@ -25,7 +25,7 @@ const FeaturesCard = (props) => {
                 top width="100%" 
                 src={props.img} 
                 alt={props.alttext}
-                id="pictures"
+                //id="pictures"
             />
             <CardBody>
                 <CardTitle tag="h5"><div>{props.title}</div></CardTitle>
