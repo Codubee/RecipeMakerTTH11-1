@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-import reactLogo from './assets/react-logo.png';
-import nodejsLogo from './assets/nodejs-logo.png';
-import herokuLogo from './assets/heroku-logo.png';
-import youtubeLogo from './assets/youtube-logo.png';
-import yelpLogo from './assets/yelp-logo.png';
 import './Tools.css';
 import {
     Jumbotron, Container
@@ -14,22 +9,22 @@ import {
       <div>
         <Jumbotron fluid>
           <Container fluid>
-            <h1 id="tools-title" className="display-4">Built Using</h1>
-            <hr className="my-4" width="250" />
-            <div class="row" id="main-logos">
-              <img class="col-sm-2" id="nodejs-logo" src={nodejsLogo} alt="Nodejs logo"/> 
-              <img class="col-sm-2" id="react-logo" src={reactLogo} alt="React logo"/>
-              <img class="col-sm-3" id="heroku-logo" src={herokuLogo} alt="Heroku logo"/>
+            <h1 id='tools-title' className='display-4'>Built Using</h1>
+            <hr className='my-4' width='250' />
+            <div className='row' id='main-logos'>
+              <img className='col-sm-2' id='nodejs-logo' src='/nodejs-logo.png' alt= 'Node.js logo'/> 
+              <img className='col-sm-2' id='react-logo' src='/react-logo.png' alt='React logo'/>
+              <img className='col-sm-3' id='heroku-logo' src='/heroku-logo.png' alt='Heroku logo'/>
             </div>
-            <div class="text-center">
-              <p className="lead">with APIs from</p>
+            <div className='text-center'>
+              <p className='lead'>with APIs from</p>
             </div>
-            <div class="row" id="api-logos">
-              {/*<img src={} alt="Image analyzer logo"/> */}
-              <img class="col-sm-1" src={youtubeLogo} alt="YouTube logo"/>
-              {/*<img src={} alt="Recipe maker logo"/> */}
-              <img class="col-sm-1" src={yelpLogo} alt="Yelp logo"/>
-              {/*<img src={} alt="Food nutrition logo"/> */}
+            <div className='row' id='api-logos'>
+              {/*<img src={} alt='Image analyzer logo'/> */}
+              <img className='col-sm-1' id='youtube-logo' src='/youtube-logo.png' alt='YouTube logo'/>
+              {/*<img src={} alt='Recipe maker logo'/> */}
+              <img className='col-sm-1' id='yelp-logo' src='/yelp-logo.png' alt='Yelp logo'/>
+              {/*<img src={} alt='Food nutrition logo'/> */}
             </div>
           </Container>
         </Jumbotron>
