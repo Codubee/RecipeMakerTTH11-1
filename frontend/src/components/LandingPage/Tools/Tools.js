@@ -9,12 +9,12 @@ import {
     Jumbotron, Container
   } from 'reactstrap';
 
-  function Tools(props) {
+  function Tools() {
     return (
       <div>
         <Jumbotron fluid>
           <Container fluid>
-            <h1 id="tools-header" className="display-4">Built Using</h1>
+            <h1 id="tools-title" className="display-4">Built Using</h1>
             <hr className="my-4" width="250" />
             <div class="row" id="main-logos">
               <img class="col-sm-2" id="nodejs-logo" src={nodejsLogo} alt="Nodejs logo"/> 
