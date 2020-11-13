@@ -1,54 +1,50 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './MyNavbar.css'
 import {
-    Collapse,
     Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
     Button
   } from 'reactstrap';
+
   import ButtonSpacer from '../ButtonSpacer/ButtonSpacer'
 
 
+const LinkButton = (props) => {
+    return(
+        <>
+        <Button id="button-background" href = {props.url}>
+           <text className="button-text">{props.label}</text>
+        </Button>
+        <ButtonSpacer/>
+        </>
+    )
+}
 
-function MyNavbar()
-{
+function MyNavbar() {
     return(
     <div> 
-        <Navbar color="dark" expand="md">
+        <Navbar id="navbar-background" expand="md">
             
-            <h2 style={{color: "whitesmoke"}}>
+            <h2 id="navbar-title">
                 Recipe Maker
             </h2>
-
             
             <ButtonSpacer/>
 
-            <Button href="/">
-                Home
-            </Button>
+            <LinkButton 
+            label="Home" 
+            url="/" 
+            />
+
+            <LinkButton 
+            label="Find a recipe" 
+            url="/test"
+            />
             
-            <ButtonSpacer/>
-
-            <Button href="/test">
-                Find a recipe
-            </Button>
-            
-            <ButtonSpacer/>
-
-            <Button href="https://github.com/Codubee/RecipeMakerTTH11-1">
-                GitHub
-            </Button>
-
-
-            
+            <LinkButton 
+            label="GitHub" 
+            url="https://github.com/Codubee/RecipeMakerTTH11-1"
+            />
 
         </Navbar> 
     </div>

@@ -1,0 +1,19 @@
+
+#navbar-background{
+    background-color: rgb(31, 31, 179);
+}
+
+#navbar-title{
+    color: rgb(143, 143, 143);
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.button-text{
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.button-background{
+    color: darkslategray;
+}
