@@ -1,40 +1,13 @@
-/* 
-    This component will have a title and a description of the features 
-    Features include: 
-        - snap a picture or manually enter ingredients
-        - getting recipes with ingredients you have
-        - seeing nutritional information
-        - and getting videos to go along with your recipe
-*/
-
 import React from 'react';
-import { Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody, Jumbotron } from 'reactstrap';
+import FeaturesCard from './FeaturesCard';
+import { CardDeck, Jumbotron } from 'reactstrap';
 import './Features.css'
+
 const camera = '/coolcamera.jpeg';
 const nutritional = '/nutritional.jpg';
 const recipes = '/goodrecipe.jpeg';
 const videos = '/videos.jpg';
 
-// including id="pictures" makes the picture format stretch when on split screen but even when on full screen
-// removing id="pictures" will make nutrition card slightly longer
-// constant for the card used throughout this file
-const FeaturesCard = (props) => {
-    return(
-        <Card>
-            <CardImg 
-                top width="100%" 
-                src={props.img} 
-                alt={props.alttext}
-                //id="pictures"
-            />
-            <CardBody>
-                <CardTitle tag="h5"><div>{props.title}</div></CardTitle>
-                <CardSubtitle tag="h6" className="mb-2 text muted">{props.sub}</CardSubtitle>
-                <CardText>{props.text}</CardText>
-            </CardBody>
-        </Card>
-    );
-};
 
 // function displayed on screen
 function Features(){
