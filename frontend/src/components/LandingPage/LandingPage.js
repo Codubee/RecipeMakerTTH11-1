@@ -6,7 +6,6 @@ function LandingPage(){
     return(
         //Use components that you import here
         <>
-             <MyNavbar/>
         </> 
        
         

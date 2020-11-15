@@ -10,38 +10,20 @@ import {
     DropdownToggle
   } from 'reactstrap';
 
-  import ButtonSpacer from '../ButtonSpacer/ButtonSpacer'
 
-
+/*
+//Compact button component, 
 const LinkButton = (props) => {
     return(
         <>
-        <Button color="info" id="button-background" href = {props.url}>
+        <Button color="info" className="button-background" href = {props.url} target={props.target}>
            <text className="button-text">{props.label}</text>
         </Button>
-        <ButtonSpacer/>
+        &nbsp;
         </>
     )
 }
-
-const DropButton = (props) => {
-
-    const [dropdownOpen, setOpen] = useState(false);
-    const toggle = () => setOpen(!dropdownOpen);
-
-    return(
-        <ButtonDropdown color="info" id="button-background" isOpen={dropdownOpen} toggle={toggle}>
-                <DropdownToggle color="info" caret>
-                <text className="button-text">Info</text>
-                </DropdownToggle>
-                <DropdownMenu>
-                    <DropdownItem href="/team"> The Team </DropdownItem>
-                    <DropdownItem href="/tools"> Tools </DropdownItem>
-                </DropdownMenu>
-        </ButtonDropdown>
-
-    )
-}
+*/
 
 function MyNavbar() {
     return(
@@ -51,28 +33,24 @@ function MyNavbar() {
             <h2 id="navbar-title">
                 Recipe Maker
             </h2>
+
+            <Button color="info" className="button-background" href = "/">
+                <text className="button-text">Home</text>
+            </Button>
+            &nbsp;
+
+
+           
+            <Button color="info" className="button-background" href = "/test">
+                <text className="button-text">Find a recipe</text>
+            </Button>
+            &nbsp;
+
             
-            <ButtonSpacer/>
-
-            <LinkButton 
-            label="Home" 
-            url="/" 
-            />
-
-            <LinkButton 
-            label="Find a recipe" 
-            url="/test"
-            />
-
-          
-            
-            <LinkButton 
-            label="GitHub" 
-            url="https://github.com/Codubee/RecipeMakerTTH11-1"
-            />
-
-            <DropButton/>
-            <ButtonSpacer/>
+            <Button color="info" className="button-background" href = "https://github.com/Codubee/RecipeMakerTTH11-1" target="_blank">
+                <text className="button-text">GitHub</text>
+            </Button>
+            &nbsp;
 
         </Navbar> 
     </div>
