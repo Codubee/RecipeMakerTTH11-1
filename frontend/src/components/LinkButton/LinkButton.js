@@ -6,7 +6,7 @@ import {Button} from 'reactstrap';
 
 //Compact button component
 //Set prop 'target' to "_blank" to open the link in a new tab 
-const LinkButton = (props) => {
+function LinkButton(props) {
     return(
         <>
         <Button color="info" className="button-background" href = {props.url} target={props.target}>
