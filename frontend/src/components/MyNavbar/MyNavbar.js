@@ -1,29 +1,7 @@
-import React, {useState} from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
 import './MyNavbar.css'
-import {
-    Navbar,
-    Button,
-    ButtonDropdown,
-    DropdownItem,
-    DropdownMenu,
-    DropdownToggle
-  } from 'reactstrap';
-
-
-/*
-//Compact button component, 
-const LinkButton = (props) => {
-    return(
-        <>
-        <Button color="info" className="button-background" href = {props.url} target={props.target}>
-           <text className="button-text">{props.label}</text>
-        </Button>
-        &nbsp;
-        </>
-    )
-}
-*/
+import LinkButton from '../LinkButton/LinkButton'
+import {Navbar} from 'reactstrap';
 
 function MyNavbar() {
     return(
@@ -34,23 +12,12 @@ function MyNavbar() {
                 Recipe Maker
             </h2>
 
-            <Button color="info" className="button-background" href = "/">
-                <text className="button-text">Home</text>
-            </Button>
-            &nbsp;
+            <LinkButton label="Home" url="/"/>
 
-
-           
-            <Button color="info" className="button-background" href = "/test">
-                <text className="button-text">Find a recipe</text>
-            </Button>
-            &nbsp;
-
+            <LinkButton label="Find a recipe" url="/test"/>
+        
+            <LinkButton label="GitHub" url="https://github.com/Codubee/RecipeMakerTTH11-1" target="_blank"/>
             
-            <Button color="info" className="button-background" href = "https://github.com/Codubee/RecipeMakerTTH11-1" target="_blank">
-                <text className="button-text">GitHub</text>
-            </Button>
-            &nbsp;
 
         </Navbar> 
     </div>
