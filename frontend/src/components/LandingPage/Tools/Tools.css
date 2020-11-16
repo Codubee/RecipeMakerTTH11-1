@@ -1,0 +1,44 @@
+#tools-title {
+    text-align: center;
+}
+
+#main-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nodejs-logo {
+    margin-left: 4vw;
+    margin-right: 5vw;
+}
+
+#react-logo {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#heroku-logo {
+    margin-left: 1vw;
+}
+
+#api-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    #main-logos {
+        max-width: 300px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    #api-logos {
+        flex-direction: row;
+        max-width: 200px;
+        margin-left: 33vw;
+        margin-right: 33vw;
+    }
+}
