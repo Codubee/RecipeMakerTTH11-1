@@ -1,14 +1,10 @@
 import React from 'react'
-import MyNavbar from '../MyNavbar/MyNavbar';
-//Import components that you create here
+
+import Tools from './Tools/Tools';
 
 function LandingPage(){
     return(
-        //Use components that you import here
-        <>
-        </> 
-       
-        
+        <Tools/>
     )
 }
 
