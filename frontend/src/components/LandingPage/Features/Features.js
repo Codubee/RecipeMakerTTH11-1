@@ -1,6 +1,6 @@
 import React from 'react';
 import FeaturesCard from './FeaturesCard';
-import { CardDeck, Jumbotron } from 'reactstrap';
+import { CardDeck } from 'reactstrap';
 import './Features.css'
 
 const camera = '/coolcamera.jpeg';
@@ -8,14 +8,12 @@ const nutritional = '/nutritional.jpg';
 const recipes = '/goodrecipe.jpeg';
 const videos = '/videos.jpg';
 
+document.body.style.backgroundColor="#e3c3b2";
 
 // function displayed on screen
 function Features(){
     return(
        <>
-        <Jumbotron>
-            <h1 id="features-header" className="display-4">Features</h1>
-        </Jumbotron>
         <CardDeck>
             <FeaturesCard
                 img = {camera} 

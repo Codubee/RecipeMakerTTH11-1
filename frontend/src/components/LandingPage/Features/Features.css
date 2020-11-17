@@ -3,5 +3,8 @@
 }
 
 #pictures {
-    height:250px;
+    min-width:150px;
+    max-width:350px;
+    min-height:150px;
+    max-height:230px;
 }
