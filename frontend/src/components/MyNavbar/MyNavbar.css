@@ -1,19 +1,20 @@
 
 #navbar-background{
-    background-color: rgb(64, 64, 175);
+    background-color: rgb(45, 77, 70);
 }
 
 #navbar-title{
-    color: rgb(211, 211, 211);
+    color:rgb(241, 238, 233);
     font-weight: bold;
     padding-right: 50px;
 }
 
 .button-text{
-    color: whitesmoke;
+    color: rgb(241, 238, 233);
     font-weight: 600;
 }
 
 .button-background{
-    padding: 10px 20px
+    background-color: rgb(176, 216, 201);
+    
 }
