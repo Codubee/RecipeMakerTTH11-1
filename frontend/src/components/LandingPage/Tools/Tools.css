@@ -6,19 +6,19 @@
     color: #2d4d46;
 }
 
-p {
+p.lead {
     color: #2d4d46;
 }
 
 /**
  *  Make the images color on mouse hover.-------------------------------
  */
- img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+ #main-logos img, #api-logos img {
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
-img:hover {
+#main-logos img:hover , #api-logos img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
@@ -26,10 +26,10 @@ img:hover {
 /**
  *  Image centering and spacing all images properly.--------------------
  */
-#main-logos {
+#main-logos, #api-logos{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 #nodejs-logo {
@@ -44,12 +44,6 @@ img:hover {
 
 #heroku-logo {
     margin-left: 1vw;
-}
-
-#api-logos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /**

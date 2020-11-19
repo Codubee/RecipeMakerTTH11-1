@@ -7,7 +7,7 @@ import {
   function Tools() {
     return (
       <div>
-        <Jumbotron fluid style={{ background: 'linear-gradient(110deg, #2d4d46 10%, rgba(0, 0, 0, 0) 10%), linear-gradient(55deg, #dfd5d1 20%, #f1eee9 20% 95%, #e3c3b2 95%)' }}>
+        <Jumbotron fluid style={{ background: 'linear-gradient(25deg, #e3c3b2 25%, rgba(0, 0, 0, 0) 25%), linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%)' }}>
           <Container fluid>
             <h1 id='tools-title' className='display-4'>Built Using</h1>
             <hr className='my-4' width='250' />
