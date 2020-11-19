@@ -10,6 +10,7 @@ document.body.style.backgroundColor="#e3c3b2";
 function Team(){
     return (
         <div className ="container">
+            <br></br>
             <CardDeck>
                     <Card body className = "text-center" inverse style={{backgroundColor: '#2D4D46', borderColor: '#F1EEE9'}}>
                         <CardTitle tag="h4">Alekhya Pinnamaneni</CardTitle>
