@@ -13,7 +13,7 @@ p.lead {
 /**
  *  Make the images color on mouse hover.-------------------------------
  */
- #main-logos img, #api-logos img {
+#main-logos img, #api-logos img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
