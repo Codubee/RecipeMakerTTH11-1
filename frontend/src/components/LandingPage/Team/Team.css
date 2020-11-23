@@ -10,3 +10,19 @@
     border: 4px solid !important;
     border-color: #F1EEE9 !important;
 }
+
+.titleText{
+    color: #E3C3B2;
+    font-weight: bold;
+}
+
+.componentBGColor {
+    background-color: #E3C3B2 !important;
+}
+
+.buttonStyling{
+    background-color: #2D4D46 !important;
+    background-clip: border-box;
+    border: 2px solid !important;
+    border-color: #F1EEE9 !important;
+}
