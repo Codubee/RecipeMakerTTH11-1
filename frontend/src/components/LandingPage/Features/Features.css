@@ -8,3 +8,25 @@
     min-height:150px;
     max-height:230px;
 }
+
+.card-style{
+    border: 4px solid white !important;
+}
+
+.card-body-style{
+    background-color: #284d46;
+}
+
+.card-title-div{
+    color:#e3c3b2;
+    font-weight:bold; 
+    font-size:19px;
+}
+.card-subtitle{
+    color:#e3c3b2;
+    font-size:12px;
+}
+
+.card-text{
+    color:white;
+}

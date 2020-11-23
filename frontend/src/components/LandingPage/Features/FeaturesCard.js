@@ -5,18 +5,18 @@ import './Features.css'
 // function for repeated features card
 function FeaturesCard(props) {
     return(
-        <Card style={{borderWidth:4, borderColor:"white"}}> 
+        <Card className="card-style"> 
             <CardImg 
                 top width="100%" 
                 src={props.img} 
                 alt={props.alttext}
                 id="pictures"
             />
-            <CardBody style={{backgroundColor:"#284d46"}}>
+            <CardBody className="card-body-style">
                 <CardTitle tag="h5">
-                    <div style={{color:"#e3c3b2", fontWeight:"bold", fontSize:19}}>{props.title}</div></CardTitle>
-                <CardSubtitle tag="h6" className="mb-2 text muted" style={{color:"#e3c3b2", fontSize:12}}>{props.sub}</CardSubtitle>
-                <CardText style ={{color:"white"}}>{props.text}</CardText>
+                    <div className="card-title-div" >{props.title}</div></CardTitle>
+                <CardSubtitle tag="h6" className="mb-2 card-subtitle">{props.sub}</CardSubtitle>
+                <CardText className= "card-text">{props.text}</CardText>
             </CardBody>
         </Card>
     );
