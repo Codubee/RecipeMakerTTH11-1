@@ -9,7 +9,7 @@ import {Button} from 'reactstrap';
 function LinkButton(props) {
     return(
         <>
-        <Button style={{ background: 'rgb(176, 216, 201)' }} className="button-background" href = {props.url} target={props.target}>
+        <Button className="button-background" href = {props.url} target={props.target}>
            <text className="button-text">{props.label}</text>
         </Button>
         &nbsp;

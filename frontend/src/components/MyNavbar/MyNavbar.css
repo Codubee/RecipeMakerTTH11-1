@@ -15,5 +15,5 @@
 }
 
 .button-background{
-    background-color: rgb(176, 216, 201);
+    background: rgb(176, 216, 201) !important;
 }
