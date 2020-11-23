@@ -39,7 +39,7 @@ function Team(){
                     </Card>
 
                     <Card body className = "text-center cardStyling">
-                        <CardTitle tag="h4" className ="titleText">Stacey Masi</CardTitle>
+                        <CardTitle tag="h4" className ="titleText">Stacey<br></br>Masi</CardTitle>
                         <br></br>
                         <CardSubtitle tag="h5">Major and Class</CardSubtitle>
                         <br></br>
@@ -63,7 +63,8 @@ function Team(){
                     </Card>
 
                     <Card body className = "text-center cardStyling">
-                        <CardTitle tag="h4" className ="titleText">Adem Odza</CardTitle>
+                        <CardTitle tag="h4" className ="titleText">
+                            Adem<br></br>Odza</CardTitle>
                         <br></br>
                         <CardSubtitle tag="h5">Major and Class</CardSubtitle>
                         <br></br>
