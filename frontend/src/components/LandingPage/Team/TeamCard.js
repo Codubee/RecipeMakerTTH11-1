@@ -3,7 +3,7 @@ TeamCard.js for repeated Team Cards
 */
 
 import React from 'react';
-import { Card, Button, CardTitle, CardText, CardSubtitle, CardDeck} from 'reactstrap';
+import { Card, Button, CardTitle, CardText, CardSubtitle} from 'reactstrap';
 import './Team.css'
 
 function TeamCard(props){
