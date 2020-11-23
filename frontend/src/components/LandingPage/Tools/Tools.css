@@ -1,4 +1,12 @@
 /**
+ *  Change the jumbotron backgrou color
+ */ 
+.jumbotron {
+    background: linear-gradient(25deg, #e3c3b2 25%, rgba(0, 0, 0, 0) 25%), 
+                linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%) !important;
+}
+
+/**
  *  Center and color all text on page.----------------------------------
  */
 #tools-title {
