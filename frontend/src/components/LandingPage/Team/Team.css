@@ -1,4 +1,12 @@
 .home{
     text-align: center;
     color: #2D4D46;
+    
+}
+
+.cardStyling{
+    background-color: #2D4D46 !important;
+    background-clip: border-box;
+    border: 4px solid !important;
+    border-color: #F1EEE9 !important;
 }
