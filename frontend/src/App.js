@@ -5,8 +5,8 @@ import MyNavbar from './components/MyNavbar/MyNavbar';
 function App() {
   return (
     <>
-    <MyNavbar/>
-    <LandingPage/>
+      <MyNavbar/>
+      <LandingPage/>
     </>
   );
 }
