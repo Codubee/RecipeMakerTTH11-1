@@ -10,7 +10,7 @@ import './Team.css'
 function Team(){
     return(
 
-        <div className ="container componentBGColor">
+        <div className ="container">
         <h1 className = "home display-4">Meet the Team!</h1>
 
             <br></br>

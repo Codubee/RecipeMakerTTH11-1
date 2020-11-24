@@ -23,8 +23,8 @@
     font-weight: bold;
 }
 
-.componentBGColor {
-    background-color: #E3C3B2 !important;
+.container {
+    background: #E3C3B2 !important;
 }
 
 .buttonStyling{
