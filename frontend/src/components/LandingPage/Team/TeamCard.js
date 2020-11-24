@@ -8,8 +8,6 @@ import './Team.css'
 
 function TeamCard(props){
     return(
-
-        
         <Card body className = "text-center cardStyling">
             <CardTitle tag="h4" className ="titleText">{props.fName}<br></br>{props.lName}</CardTitle>
             <br></br>
@@ -21,8 +19,6 @@ function TeamCard(props){
             <br></br>
             <Button className="buttonStyling">LinkedIn</Button>
         </Card>
-        
-        
     )
 
 }
