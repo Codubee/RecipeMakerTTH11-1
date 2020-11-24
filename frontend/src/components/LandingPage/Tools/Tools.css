@@ -1,0 +1,73 @@
+/**
+ *  Change the jumbotron backgrou color
+ */ 
+.jumbotron {
+    background: linear-gradient(25deg, #e3c3b2 25%, rgba(0, 0, 0, 0) 25%), 
+                linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%) !important;
+}
+
+/**
+ *  Center and color all text on page.----------------------------------
+ */
+#tools-title {
+    text-align: center;
+    color: #2d4d46;
+}
+
+p.lead {
+    color: #2d4d46;
+}
+
+/**
+ *  Make the images color on mouse hover.-------------------------------
+ */
+#main-logos img, #api-logos img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#main-logos img:hover , #api-logos img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/**
+ *  Image centering and spacing all images properly.--------------------
+ */
+#main-logos, #api-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#nodejs-logo {
+    margin-left: 4vw;
+    margin-right: 5vw;
+}
+
+#react-logo {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#heroku-logo {
+    margin-left: 1vw;
+}
+
+/**
+ *  Responsive adjustment for images
+ */
+@media (max-width: 576px) {
+    #main-logos {
+        max-width: 300px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    #api-logos {
+        flex-direction: row;
+        max-width: 200px;
+        margin-left: 33vw;
+        margin-right: 33vw;
+    }
+}
