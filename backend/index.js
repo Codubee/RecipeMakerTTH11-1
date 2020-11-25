@@ -13,3 +13,5 @@ app.get('/',(req,res)=>{
 app.listen(port,()=>{
     console.log('API is up and running')
 })
+
+module.exports = app;
