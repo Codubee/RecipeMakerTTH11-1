@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const axios = require('axios');
+const { query } = require('express');
 require('dotenv').config();
 app.use(express.json())
 
@@ -14,12 +15,15 @@ app.listen(port,()=>{
     console.log('API is up and running')
 })
 
-// Recipe Maker API
+// Call Recipe Maker API
 app.get( '/recipe', (req, res)=>{
 
     //Add key
-    
-    axios.get('https://api.edamam.com/search?q=chicken')
+    const API_Key = process.env.API_KEY;
+    const App_ID = process.env.APP_ID;
+
+    //Customize url in get statement for different API call?
+    axios.get('https://api.edamam.com/search?q=chicken&app_key=' + {API_Key} + '&app_id=' + {App_ID})
     .then( (response)=>{
         console.log(response.data);
         res.status(200);
