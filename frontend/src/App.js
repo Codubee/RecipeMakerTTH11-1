@@ -2,6 +2,8 @@ import './App.css';
 import LandingPage from './components/LandingPage/LandingPage'
 import MyNavbar from './components/MyNavbar/MyNavbar';
 import React from 'react';
+import { Jumbotron } from 'reactstrap';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,30 +17,25 @@ function App() {
       <MyNavbar/>
       <Router>
           <Switch>
-            <Route path="/" component={LandingPage} />
+            <Route path="/" exact component={LandingPage} />
             <Route path="/test" component={Recipes} />
-            <Route path="https://github.com/Codubee/RecipeMakerTTH11-1">
-              <GitHub />
-            </Route>
           </Switch>
       </Router>
     </>
   );
 }
 
-function Home()
-{
-  return <h2>Home</h2>
-}
-
 function Recipes()
 {
-  return <h2>Find a recipe</h2>
+  //return <h2>Find a recipe</h2>
+  return (
+    <div >
+            <Jumbotron className="jumbotron-style">
+                <h1 className="display-3" >Find a recipe</h1>
+            </Jumbotron>
+    </div>
+  );
 }
 
-function GitHub()
-{
-  return <h2>GitHub</h2>
-}
 
 export default App;
