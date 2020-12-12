@@ -15,17 +15,20 @@ app.listen(port,()=>{
     console.log('API is up and running')
 })
 
+
 // Call Recipe Maker API
 app.get( '/recipe', (req, res)=>{
 
-    //Add key
+
+    //API Verification
     const API_Key = process.env.API_KEY;
     const App_ID = process.env.APP_ID;
-
-    //Customize url in get statement for different API call?
-    axios.get('https://api.edamam.com/search?q=chicken&app_key=' + {API_Key} + '&app_id=' + {App_ID})
+    
+    
+    axios.get('https://api.edamam.com/search?q=' + req.ingredientString + '&app_key=' + API_Key + '&app_id=' + App_ID)
     .then( (response)=>{
-        console.log(response.data);
+        //Return only the recipes
+        console.log(response.data.hits);
         res.status(200);
 
     })
@@ -38,5 +41,8 @@ app.get( '/recipe', (req, res)=>{
     })
 
 })
+
+
+
 
 module.exports = app;
