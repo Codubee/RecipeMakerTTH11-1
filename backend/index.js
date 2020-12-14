@@ -18,8 +18,8 @@ app.listen(port,()=>{
 
 // Call the Recipe Maker API
 // :userIngredients is the string of ingredients to search the API for
-// Example: localhost:8080/recipe/chicken rice beans/ searches for recipes containing chicken, rice, and beans
-app.get( '/recipe/:userIngredients/', (req, res)=>{
+// Example: localhost:8080/recipe?chicken rice beans/ searches for recipes containing chicken, rice, and beans
+app.get( '/recipe?:userIngredients/', (req, res)=>{
 
 
     //API Verification
