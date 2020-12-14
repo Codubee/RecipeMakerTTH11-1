@@ -17,15 +17,15 @@ app.listen(port,()=>{
 
 
 // Call Recipe Maker API
-app.get( '/recipe', (req, res)=>{
+app.get( '/recipe/:userIngredients/', (req, res)=>{
 
 
     //API Verification
-    const API_Key = process.env.API_KEY;
-    const App_ID = process.env.APP_ID;
+    const API_Key = process.env.RECIPEMAKER_API_KEY;
+    const App_ID = process.env.RECIPEMAKER_APP_ID;
     
     
-    axios.get('https://api.edamam.com/search?q=' + req.ingredientString + '&app_key=' + API_Key + '&app_id=' + App_ID)
+    axios.get('https://api.edamam.com/search?q=' + req.params.userIngredients + '&app_key=' + API_Key + '&app_id=' + App_ID)
     .then( (response)=>{
         //Return only the recipes
         console.log(response.data.hits);
