@@ -21,8 +21,8 @@ app.get('/business/:recipe/:zipcode', (req, res)=> {
     let recipe = req.params.recipe;
     let zipcode = req.params.zipcode;
 
-    // '&categories=restaurants' was added to reduce the non-food places that would appear
-    axios.get('https://api.yelp.com/v3/businesses/search?term=' + recipe + '&location=' + zipcode + '&categories=restaurants', headers)
+    // '&categories=food' was added to reduce the non-food places that would appear
+    axios.get('https://api.yelp.com/v3/businesses/search?term=' + recipe + '&location=' + zipcode + '&categories=food', headers)
     .then((response)=>{
         console.log(response);
         res.status(200).json(response.data);
