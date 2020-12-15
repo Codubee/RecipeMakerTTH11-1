@@ -16,6 +16,11 @@ app.listen(port,()=>{
 
 /**
  *  Send a post request to the API that will get YouTube links for recipe videos.
+ *  To test, use http://localhost:8080/youtubeRecipe as the request URL on Postman
+ *      - The data to be sent should be input in the body tab as raw JSON data.
+ *      - i.e. {
+ *                  "recipe": "steak"     
+ *             }
  */
 app.post('/youtubeRecipe',(req,res)=>{
     console.log(req.body);
