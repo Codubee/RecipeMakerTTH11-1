@@ -30,8 +30,8 @@ app.get( '/recipe?:userIngredients/', (req, res)=>{
     axios.get('https://api.edamam.com/search?q=' + req.params.userIngredients + '&app_key=' + API_KEY + '&app_id=' + APP_ID)
     .then( (response)=>{
         //Print recipes to console
-        console.log(response.data.hits);
-        res.status(200);
+        console.log(response.data);
+        res.status(200).json(response.data.hits);
 
     })
 
