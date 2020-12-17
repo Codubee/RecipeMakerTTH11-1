@@ -19,17 +19,18 @@ app.listen(port,()=>{
 app.post('/nutritionalinfo',(req,res)=>{
     console.log(req.body)
 
+    // Sending title of the recipe and ingredients as a part of the request
     const body = {
         title: req.body.title,
-        ingr: req.body.ingr,
-        yield: req.body.yield
-
+        ingr: req.body.ingr
     }
+
 
     // API ID AND KEY
     const NA_ID = process.env.NUTRITIONAL_APP_ID
     const NA_KEY = process.env.NUTRITIONAL_APP_KEY
 
+   
     axios.post('https://api.edamam.com/api/nutrition-details?app_id=' + NA_ID + '&app_key=' + NA_KEY, body)
     .then((response)=>{
         /* handle success and sends back recipe object containing number of servings (yield), 
@@ -44,6 +45,7 @@ app.post('/nutritionalinfo',(req,res)=>{
         console.log(error);
         res.status(400).json({error:"An error occurred"});
     })
+    
 
 })
 
