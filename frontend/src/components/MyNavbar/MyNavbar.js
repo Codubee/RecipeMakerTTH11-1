@@ -14,7 +14,7 @@ function MyNavbar() {
 
             <LinkButton label="Home" url="/"/>
 
-            <LinkButton label="Find a recipe" url="/test"/>
+            <LinkButton label="Find a recipe" url="/findRecipe"/>
         
             <LinkButton label="GitHub" url="https://github.com/Codubee/RecipeMakerTTH11-1" target="_blank"/>
             
