@@ -18,7 +18,7 @@ function App() {
       <Router>
           <Switch>
             <Route path="/" exact component={LandingPage} />
-            <Route path="/test" component={Recipes} />
+            <Route path="/findRecipe" component={Recipes} />
           </Switch>
       </Router>
     </>
