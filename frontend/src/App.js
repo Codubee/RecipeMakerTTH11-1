@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import YouTubeVideo from './components/YouTubeVideo/YouTubeVideo';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function Recipes()
             <Jumbotron className="jumbotron-style">
                 <h1 className="display-3" >Find a recipe</h1>
             </Jumbotron>
+            <YouTubeVideo recipe='aglio e olio'/>
     </div>
   );
 }

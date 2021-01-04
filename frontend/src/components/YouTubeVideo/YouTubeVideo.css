@@ -1,0 +1,15 @@
+.youtube-video-div {
+    color: #2d4d46;
+    margin: 2vw 0 2vw 0;
+    text-align: center;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: center;
+}
+
+.each-video {
+    display: flex;
+    margin: 1vw 1vw 1vw 1vw;
+}
