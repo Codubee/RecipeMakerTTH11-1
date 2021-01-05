@@ -1,0 +1,17 @@
+.title-text{
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.subtitle-text{
+
+}
+
+.card-style{
+    background-color: rgb(241, 238, 233);
+}
+
+.card-border{
+    background-color: rgb(45, 77, 70)
+}
