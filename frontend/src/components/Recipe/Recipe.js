@@ -12,7 +12,7 @@ After getting the ingredients calling the backend recipe api and receiving the d
 */
 import React from 'react';
 import axios from 'axios';
-import { CardDeck, Card } from 'reactstrap';
+import { Card,CardBody,CardTitle,CardText } from 'reactstrap';
 import './Recipe.css';
 
 // TODO: FIX HOW RECIPES WONT SHOW
@@ -20,12 +20,12 @@ class Recipe extends React.Component{
     constructor(props){
         super(props);
         this.state = { 
-            ingredients: props.ingredients,
+            //ingredients: props.ingredients,
             recipes: [] 
         };
     }
     componentDidMount() {
-        axios.get('/recipe?', this.state.ingredients).then((response) => {
+        axios.get('/recipe?userIngredients=chicken rice beans').then((response) => {
             console.log(response.data);
             this.setState({
                 recipes: response.data
@@ -38,8 +38,18 @@ class Recipe extends React.Component{
     
     render(){
         return(
-            <div>
-                <Card>{this.state.recipes}</Card>
+            <div class = "container">
+                {this.state.recipes.map((dish, index) => (
+                    <div key={index}>
+                    <Card>
+                      <CardBody>
+                        <CardTitle tag="h5">{dish.recipe.label}</CardTitle>
+                      </CardBody>
+                    </Card>
+                    <br></br>
+                  </div>
+                  
+                ))}
             </div>
         )
     }

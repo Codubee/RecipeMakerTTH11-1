@@ -18,45 +18,40 @@ function Team(){
                 <TeamCard
                     fName = "Alekhya"
                     lName = "Pinnamaneni"
-                    subtitle = "B.S. Computer Science, Class of 2024"
+                    subtitle = "Major and Class"
                     text = "(Info about ourselves)"
-                    linkedin = ""
                     github = "https://github.com/alekhyapinnamaneni"
                 />
 
                 <TeamCard
                     fName = "Sung Hyun"
                     lName = "Hwang"
-                    subtitle = "M.S. Computer Science, Class of 2022"
+                    subtitle = "Major and Class"
                     text = "(Info about ourselves)"
-                    linkedin = "https://www.linkedin.com/in/sung-hyun-hwang-02aa17170/"
                     github = "https://github.com/sunghyun96"
                 />
 
                 <TeamCard
                     fName = "Stacey"
                     lName = "Masi"
-                    subtitle = "B.S. Computer Science, Class of 2023"
-                    text = "Undergraduate computer science student with interests in app development and cybersecurity"
-                    linkedin = "https://www.linkedin.com/in/stacey-masi"
+                    subtitle = "Major and Class"
+                    text = "(Info about ourselves)"
                     github = "https://github.com/Stacey-Masi"
                 />
 
                 <TeamCard
                     fName = "Sai Abhiroop"
                     lName = "Tanjavuru"
-                    subtitle = "B.S. Computer Science, Class of 2022"
+                    subtitle = "Major and Class"
                     text = "(Info about ourselves)"
-                    linkedin = ""
                     github = "https://github.com/saitanjavuru"
                 />
 
                 <TeamCard
                     fName = "Adem"
                     lName = "Odza"
-                    subtitle = "B.S. Computer Science, Class of 2023"
+                    subtitle = "Major and Class"
                     text = "(Info about ourselves)"
-                    linkedin = "https://www.linkedin.com/in/adem-odza/"
                     github = "https://github.com/AdemOdza"
                 />
             </CardDeck>

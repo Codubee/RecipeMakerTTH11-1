@@ -17,7 +17,7 @@ function TeamCard(props){
             <br></br>
             <Button className="buttonStyling" href={props.github} target="_blank" >GitHub</Button>
             <br></br>
-            <Button className="buttonStyling" href={props.linkedin} target="_blank">LinkedIn</Button>
+            <Button className="buttonStyling">LinkedIn</Button>
         </Card>
     )
 
