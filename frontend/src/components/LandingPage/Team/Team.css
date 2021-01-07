@@ -25,6 +25,8 @@
 
 .container {
     background: #E3C3B2 !important;
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important;
 }
 
 .buttonStyling{

@@ -1,9 +1,11 @@
 /**
- *  Change the jumbotron backgrou color
+ *  Change the jumbotron background color-------------------------------
  */ 
-.jumbotron {
+.tools-jumbotron {
     background: linear-gradient(25deg, #e3c3b2 25%, rgba(0, 0, 0, 0) 25%), 
-                linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%) !important;
+                linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%);
+    padding-top: 25vh !important;
+    padding-bottom: 25vh !important;
 }
 
 /**
@@ -55,7 +57,7 @@ p.lead {
 }
 
 /**
- *  Responsive adjustment for images
+ *  Responsive adjustment for images------------------------------------
  */
 @media (max-width: 576px) {
     #main-logos {

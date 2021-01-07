@@ -7,7 +7,7 @@ import {
   function Tools() {
     return (
       <div>
-        <Jumbotron fluid>
+        <Jumbotron fluid className='tools-jumbotron'>
           <Container fluid>
             <h1 id='tools-title' className='display-4'>Built Using</h1>
             <hr className='my-4' width='250' />
