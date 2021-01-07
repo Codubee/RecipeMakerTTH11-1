@@ -1,10 +1,17 @@
 .jumbotron-style{
-    background-color: #284d46 !important;
-    color: #284d46 !important;
+    background: #284d46 !important;
+    color: #e3c3b2;
+    padding: 15vh 3vw 10vh !important;
+    border-bottom: solid;
+    border-width: 10px;
+    border-image: linear-gradient(151deg, rgba(40,77,70,1) 43%, rgba(227,195,178,1) 80%) 1;
+}
+
+#explanation-text {
+    color: #e3c3b2;
 }
 
 .jumbotron{
     margin-bottom: 0px !important;
     border-radius: 0px !important;
 }
-
