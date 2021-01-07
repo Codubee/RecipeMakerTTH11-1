@@ -41,8 +41,8 @@ p.lead {
 }
 
 #nodejs-logo {
-    margin-left: 4vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 2vw;
 }
 
 #react-logo {
@@ -50,8 +50,25 @@ p.lead {
     margin-right: 5vw;
 }
 
+#aws-logo {
+    max-height: 160px;
+    max-width: 267px;
+    margin-right: 3vw;
+}
+
 #heroku-logo {
+    margin-left: 3vw;
+}
+
+#edamam-logo{
+    max-height: 100px;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+#yelp-logo {
     margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 /**

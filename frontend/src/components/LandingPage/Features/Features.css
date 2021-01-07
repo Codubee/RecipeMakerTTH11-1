@@ -3,10 +3,9 @@
 }
 
 #pictures {
-    min-width:150px;
-    max-width:350px;
     min-height:150px;
     max-height:230px;
+    object-fit: cover;
 }
 
 .card-style{
