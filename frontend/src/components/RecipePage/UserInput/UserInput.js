@@ -14,6 +14,7 @@ class UserInput extends React.Component{
 
     handleClick(){
         console.log(this.state.ingredients);
+        //Edit to call the api later!
     }
 
     handleChange(event){
@@ -24,11 +25,12 @@ class UserInput extends React.Component{
     {
         return(
         <div>
-            <Col sm="4">
+            <Col sm="3">
                 <Card body className="card-style">
                 <CardTitle className="title-text">Enter your ingredients</CardTitle>
-                <CardSubtitle className="subtitle-text">Enter your ingredients separated by spaces</CardSubtitle>
+                <CardSubtitle className="subtitle-text">Type your ingredients and separate them using spaces</CardSubtitle>
                 <Input onChange={this.handleChange}>Test</Input>
+                <h1></h1>
                 <Button onClick={this.handleClick}>Search</Button>
                 </Card>
             </Col>
