@@ -1,5 +1,4 @@
 .title-text{
-    font-style: italic;
     font-size: xx-large;
     font-weight: bolder;
     color: rgb(227, 195, 178);
@@ -10,13 +9,20 @@
     font-size: large;
     border-width: 5px;
     color: rgb(241, 238, 233);
-   
-
 }
 
 .card-style{
     background-color: rgb(45, 77, 70) !important;
     background:rgb(45, 77, 70) !important;
     color: rgb(45, 77, 70) !important;
+}
+
+.button-text{
+    color: rgb(45, 77, 70);
+    font-weight: 600;
+}
+
+.button-background{
+    background: rgb(176, 216, 201) !important;
 }
 
