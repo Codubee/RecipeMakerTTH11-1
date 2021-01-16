@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import {Card,CardBody,CardTitle,CardText} from 'reactstrap'
-import { response } from '../../../../backend';
 
 class NutritionalData extends React.Component {
     constructor(props) {
