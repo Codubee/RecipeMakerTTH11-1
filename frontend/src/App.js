@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import NutritionalData from './components/NutritionalData/NutritionalData';
 
 function App() {
   return (
