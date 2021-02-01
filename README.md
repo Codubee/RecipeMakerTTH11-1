@@ -96,4 +96,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 [license-shield]: https://img.shields.io/github/license/Codubee/StockPredictionMW2-4?style=for-the-badge
 
-[license-url]: https://github.com/Codubee/StockPredictionMW2-4/blob/master/License.txt
+[license-url]: https://github.com/Codubee/RecipeMakerTTH11-1/blob/main/License.txt
