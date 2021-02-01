@@ -7,10 +7,10 @@ import './Explanation.css'
 function Explanation()
 {
     return (
-        <div >
+        <div>
             <Jumbotron className="jumbotron-style">
                 <h1 className="display-3" >Recipe Maker</h1>
-                <p className="lead" >Simply upload pictures or type in the ingredients you have in your pantry and fridge, and Recipe Maker will generate a matching recipe.</p>
+                <p className="lead" id="explanation-text">Simply upload pictures or type in the ingredients you have in your pantry and fridge, and Recipe Maker will generate a matching recipe.</p>
             </Jumbotron>
         </div>
     );
