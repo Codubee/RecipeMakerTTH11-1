@@ -1,0 +1,31 @@
+/**
+ *  Header and component spacing----------------------------------------
+ */
+.youtube-video-div {
+    color: #2d4d46;
+    margin: 2vw 0 2vw 0;
+    text-align: center;
+}
+
+/**
+ *  Thematic break between header and videos----------------------------
+ */
+#break {
+    width: 79vw;
+}
+
+/**
+ *  Center all videos---------------------------------------------------
+ */
+.card-deck {
+    display: flex;
+    justify-content: center;
+}
+
+/**
+ *  Spacing for each video displayed------------------------------------
+ */
+.each-video {
+    display: flex;
+    margin: 1vw 1vw 1vw 1vw;
+}
