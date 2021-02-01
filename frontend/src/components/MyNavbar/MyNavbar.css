@@ -1,3 +1,9 @@
+/* Position navbar to follow mouse scroll and be z-positioned above all other elements */
+.navbar {
+    position: fixed !important;
+    width: 100vw;
+    z-index: 100;
+}
 
 #navbar-background{
     background-color: rgb(45, 77, 70);
