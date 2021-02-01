@@ -77,23 +77,23 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Codubee/StockPredictionMW2-4?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Codubee/RecipeMakerTTH11-1?style=for-the-badge
 
-[contributors-url]: https://github.com/Codubee/StockPredictionMW2-4/graphs/contributors
-
-
-[last-commit]: https://img.shields.io/github/last-commit/Codubee/StockPredictionMW2-4?style=for-the-badge
-
-[commit-url]: https://github.com/Codubee/StockPredictionMW2-4/commits/main
+[contributors-url]: https://github.com/Codubee/RecipeMakerTTH11-1/graphs/contributors
 
 
-[pr-shield]: https://img.shields.io/github/issues-pr-closed/Codubee/StockPredictionMW2-4?style=for-the-badge
+[last-commit]: https://img.shields.io/github/last-commit/Codubee/RecipeMakerTTH11-1?style=for-the-badge
 
-[pr-url]: https://github.com/Codubee/StockPredictionMW2-4/pulls
+[commit-url]: https://github.com/Codubee/RecipeMakerTTH11-1/commits/main
 
 
-[issues-url]: https://github.com/Codubee/StockPredictionMW2-4/pulls
+[pr-shield]: https://img.shields.io/github/issues-pr-closed/Codubee/RecipeMakerTTH11-1?style=for-the-badge
 
-[license-shield]: https://img.shields.io/github/license/Codubee/StockPredictionMW2-4?style=for-the-badge
+[pr-url]: https://github.com/Codubee/RecipeMakerTTH11-1/pulls
+
+
+[issues-url]: https://github.com/Codubee/RecipeMakerTTH11-1/pulls
+
+[license-shield]: https://img.shields.io/github/license/Codubee/RecipeMakerTTH11-1?style=for-the-badge
 
 [license-url]: https://github.com/Codubee/RecipeMakerTTH11-1/blob/main/License.txt
