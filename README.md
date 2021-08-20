@@ -1,4 +1,9 @@
 <!-- PROJECT LOGO -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Last Commit][last-commit]][commit-url]
+[![Pull Requests][pr-shield]][pr-url]
+[![MIT License][license-shield]][license-url]
+
 <br />
 <p align="center">
 
@@ -68,3 +73,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Codubee/RecipeMakerTTH11-1?style=for-the-badge
+
+[contributors-url]: https://github.com/Codubee/RecipeMakerTTH11-1/graphs/contributors
+
+
+[last-commit]: https://img.shields.io/github/last-commit/Codubee/RecipeMakerTTH11-1?style=for-the-badge
+
+[commit-url]: https://github.com/Codubee/RecipeMakerTTH11-1/commits/main
+
+
+[pr-shield]: https://img.shields.io/github/issues-pr-closed/Codubee/RecipeMakerTTH11-1?style=for-the-badge
+
+[pr-url]: https://github.com/Codubee/RecipeMakerTTH11-1/pulls
+
+
+[issues-url]: https://github.com/Codubee/RecipeMakerTTH11-1/pulls
+
+[license-shield]: https://img.shields.io/github/license/Codubee/RecipeMakerTTH11-1?style=for-the-badge
+
+[license-url]: https://github.com/Codubee/RecipeMakerTTH11-1/blob/main/License.txt

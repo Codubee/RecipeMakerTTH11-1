@@ -1,9 +1,11 @@
 /**
- *  Change the jumbotron backgrou color
+ *  Change the jumbotron background color-------------------------------
  */ 
-.jumbotron {
+.tools-jumbotron {
     background: linear-gradient(25deg, #e3c3b2 25%, rgba(0, 0, 0, 0) 25%), 
-                linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%) !important;
+                linear-gradient(70deg, #f1eee9 90%, #e3c3b2 90%);
+    padding-top: 25vh !important;
+    padding-bottom: 25vh !important;
 }
 
 /**
@@ -41,8 +43,8 @@ p.lead {
 }
 
 #nodejs-logo {
-    margin-left: 4vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 2vw;
 }
 
 #react-logo {
@@ -50,12 +52,29 @@ p.lead {
     margin-right: 5vw;
 }
 
+#aws-logo {
+    max-height: 160px;
+    max-width: 267px;
+    margin-right: 3vw;
+}
+
 #heroku-logo {
+    margin-left: 3vw;
+}
+
+#edamam-logo{
+    max-height: 100px;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+#yelp-logo {
     margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 /**
- *  Responsive adjustment for images
+ *  Responsive adjustment for images------------------------------------
  */
 @media (max-width: 576px) {
     #main-logos {

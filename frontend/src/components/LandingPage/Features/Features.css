@@ -1,12 +1,18 @@
+.features {
+    margin-top: 11vh;
+    margin-right: 3vw;
+    margin-bottom: 11vh;
+    margin-left: 3vw;
+}
+
 #features-header {
     text-align: center;
 }
 
 #pictures {
-    min-width:150px;
-    max-width:350px;
     min-height:150px;
     max-height:230px;
+    object-fit: cover;
 }
 
 .card-style{

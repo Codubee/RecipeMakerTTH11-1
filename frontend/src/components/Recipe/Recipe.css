@@ -1,0 +1,11 @@
+#pictures {
+    width: auto;
+    max-width: 150px;
+    height: auto;
+    max-height:150px;
+}
+ 
+.recipe-card {
+    width: 75px;
+    height: 200px
+}
