@@ -20,7 +20,7 @@ class Recipe extends React.Component{
         super(props);
         this.state = { 
             // commented out for now until user input can be gathered
-            //ingredients: [],
+            ingredients: [],
             recipes: [] 
         };
     }
@@ -28,7 +28,7 @@ class Recipe extends React.Component{
         axios.get('/recipe?userIngredients=chicken rice beans').then((response) => {
             console.log(response.data);
             this.setState({
-                recipes: response.data
+                recipes: response.data,
             });
         })
         .catch((error) => {
@@ -49,7 +49,7 @@ class Recipe extends React.Component{
                 {this.state.recipes.map((dish, index) => (
                     <div key={index}>
                     <Card class="recipe-card">
-                    <CardBody>
+                    <CardBody className="card-body">
                         <CardTitle tag="h5">{dish.recipe.label}</CardTitle>
                         <a href={dish.recipe.url} target="_blank">
                             <CardImg 
@@ -59,13 +59,11 @@ class Recipe extends React.Component{
                                 id="pictures"
                             />
                         </a>
-                        {/* <CardText>
-                            {dish.recipe.ingredients.map((ingredient, index) => (
-                                    <p key={index}>
-                                        {ingredient}
-                                    </p>
-                            ))}
-                        </CardText> */}
+                        <div>
+                            {dish.recipe.ingredients.map((ingredient,index) =>
+                                <p key={index}>{ingredient.text}</p>
+                            )}
+                        </div>
                     </CardBody>
                     </Card>
                     <br></br>
@@ -75,5 +73,4 @@ class Recipe extends React.Component{
         )
     }
 }
- 
 export default Recipe;

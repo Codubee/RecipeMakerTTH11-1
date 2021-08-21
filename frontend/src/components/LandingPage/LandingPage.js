@@ -3,7 +3,6 @@ import Explanation from './Explanation/Explanation';
 import Tools from './Tools/Tools';
 import Features from './Features/Features.js'
 import Team from './Team/Team'
-import Recipe from '../Recipe/Recipe.js'
 
 function LandingPage(){
     return(
@@ -12,7 +11,6 @@ function LandingPage(){
             <Features/>
             <Tools/>
             <Team/>
-            <Recipe/>
         </>
     )
 }

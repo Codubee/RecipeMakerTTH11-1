@@ -1,11 +1,17 @@
 #pictures {
     width: auto;
-    max-width: 150px;
+    max-width: 250px;
     height: auto;
-    max-height:150px;
+    max-height: 250px;
 }
  
 .recipe-card {
-    width: 75px;
-    height: 200px
+    display: flex;
+    flex-direction: row;
+    width: 225px;
+    height: 175px;
+}
+
+.card-body {
+    width: auto;
 }
