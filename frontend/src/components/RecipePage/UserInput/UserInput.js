@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Card, CardTitle, Button, Input, Col, Row } from 'reactstrap';
 import './UserInput.css'
+//import { getRecipes } from '../../../AxiosRequests/getRecipes'
 
 
 
@@ -37,6 +38,16 @@ class UserInput extends React.Component{
 
     handleSearchClick(){
         //Call API here.
+        /*getRecipes(this.state.ingredients)
+            .then((response) => {
+                console.log(response.data);
+                this.setState({
+                    recipes: response.data
+                });
+            })
+            .catch(function (error) {
+                console.log(error);
+            });*/
     }
 
     handleChange(event){

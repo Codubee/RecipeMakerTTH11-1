@@ -14,26 +14,41 @@ import React from 'react';
 import axios from 'axios';
 import { Card,CardBody,CardTitle, CardImg, CardText} from 'reactstrap';
 import './Recipe.css';
+import { getRecipes } from '../../AxiosRequests/getRecipes';
+import UserInput from '../RecipePage/UserInput/UserInput'
  
 class Recipe extends React.Component{
     constructor(props){
         super(props);
         this.state = { 
             // commented out for now until user input can be gathered
-            ingredients: [],
-            recipes: [] 
+            //ingredients: [],
+            recipes: []
         };
     }
     componentDidMount() {
-        axios.get('/recipe?userIngredients=chicken rice beans').then((response) => {
+        /*axios.get('/recipe?userIngredients=chicken rice beans').then((response) => {
             console.log(response.data);
             this.setState({
                 recipes: response.data,
+                //ingredients: UserInput.ingredients
             });
         })
         .catch((error) => {
             console.log(error);
-        })
+        })*/
+        
+        getRecipes(this.state.ingredients)
+            .then((response) => {
+                console.log(response.data);
+                this.setState({
+                    recipes: response.data
+                });
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+
     }
     
     /*
